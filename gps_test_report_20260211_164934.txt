@@ -1,0 +1,45 @@
+======================================================================
+GPS 12-HOUR ENDURANCE TEST REPORT
+======================================================================
+
+Test Duration: 12 hours
+Start Time: 2026-02-11 16:49:34
+End Time: 2026-02-12 04:49:34
+Actual Duration: 12:00:00.068372
+
+----------------------------------------------------------------------
+RECEPTION STATISTICS
+----------------------------------------------------------------------
+Total NMEA Readings: 42510
+Successful Fixes: 42481
+No Fix: 28
+Fix Success Rate: 99.93%
+Satellite Range: 9 - 18
+
+----------------------------------------------------------------------
+POSITION STATISTICS
+----------------------------------------------------------------------
+Average Position:
+  Latitude:  39.008887°
+  Longitude: -104.881681°
+  Altitude:  2170.3 m
+
+Position Variation:
+  Latitude spread:  11.47 m
+  Longitude spread: 11.47 m
+  Altitude spread:  26.30 m
+  2D Position spread: 16.22 m
+
+Latitude Range:  39.008823° to 39.008927°
+Longitude Range: -104.881723° to -104.881620°
+Altitude Range:  2157.2 m to 2183.5 m
+
+----------------------------------------------------------------------
+ASSESSMENT
+----------------------------------------------------------------------
+✓ EXCELLENT - GPS maintained lock >95% of the time
+✓ GOOD position stability (<25m spread)
+
+======================================================================
+Detailed data saved to: gps_12hr_data_20260211_164934.csv
+======================================================================
