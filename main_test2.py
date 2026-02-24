@@ -4,8 +4,8 @@ Integrated Main Test System for Raspberry Pi 5
 Combines: GPS + Wind Sensor + GeoJSON Receiver
 
 Hardware Setup:
-- GPS module on USB (e.g., /dev/ttyUSB0)
-- Wind sensor on USB (e.g., /dev/ttyUSB1)
+- Wind sensor on USB (e.g., /dev/ttyUSB0)
+- GPS module on USB (e.g., /dev/ttyUSB1)
 - Ethernet/WiFi for GeoJSON UDP receiver
 
 Usage:
@@ -21,7 +21,7 @@ import argparse
 import json
 from datetime import datetime
 from typing import Optional, Tuple
-from geojson_receiver import receive_and_get_coordinates, HOST, PORT
+#from geojson_receiver import receive_and_get_coordinates, HOST, PORT
 from wind_logger import wind_monitor_thread
 
 # ============================================================================
